@@ -1,4 +1,5 @@
 #include "std_lib_facilities.h"
+#include <iostream>
 int main()
 {
     string first_name;
@@ -42,7 +43,7 @@ int main()
        cout<<"I hope you are enjoying retirement.\n";
        }
     
-    cout<<"Yours sincerely,\n\n first_name";
+    cout<<"Yours sincerely,\n\n <<first_name<<";
     
     return 0;
 }
